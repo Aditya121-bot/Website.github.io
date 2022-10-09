@@ -1,98 +1,83 @@
-
-
-        
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&family=Lobster&family=Oswald:wght@600&family=Rock+3D&family=Yanone+Kaffeesatz:wght@400;500;546&display=swap');
-
-
-
-
-
 body {
-    height:3000px;
-    background-color:#ff7db8;
-}
-*{
     
-    
-    margin:0;
 }
+#main_border{
+    border:2px solid black;
+    height:100%;width:100%;
+    background-color:#f0f8ff;
+    border-radius:5px;
+    margin-bottom:15px;
+    border-color:#f0a500;
 
-#NavTop{
-    
-    border:0px solid white;
-    height:50px;
-    justify-content:flex-end;
-    display:flex;
-    
-    background-color:white;
-    border-bottom-color:black;
-    border-bottom-width:1.5px;
-    width:100%;
-    transition:all .5s;
-    top:0;
-    position:fixed;
-    }
-
-#NavBottom{
-    
-    border:0px solid white;
-    height:45px;
-    background-color:white;
-    display:flex;
-    border-top-color:black;
-    border-top-width:1.5px;
-    width:100%;
-    
-    transition:all .5s;
-    bottom:0;
-    position:fixed;
-    
 }
-#logo_name{
+#infor{
+    font-size:18px;
+    margin-top:-5px;
+}
+#company_name{
+    text-align:center ;
+    font-size:22px;
+    color:#f0a500;
+    width:100%;
+}
+#img{
+    height:250px;width:200px;
+    border:1.5px solid black;
+    border-radius:3px;
     margin:auto;
-    margin-left:2px;
-    font-size:30px;
-    letter-spacing:3px;
-     color:transparent ;
-    -webkit-background-clip:text;
-    background-image:linear-gradient(#ee2a7b,#ff7db8);
+    background-size:100%; background-image:url(https://firebasestorage.googleapis.com/v0/b/aditya-a96ba.appspot.com/o/Screenshot_20221009-201030_Skype.jpg?alt=media&token=54d8be79-e2f6-4c5b-b4d3-cdfcf537132b);
+background-size:cover;
+    background-size:cover;
+    border-color:#f0a500;
+}
+.inf1{
+    margin-left:3%;
+    font-size:19px;
     font-weight:bold;
-    font-family:  'dosis',cursive;
+    color:#082032;
+}
+.inf_ans{
+    font-weight:bolder;
+    color:#f0a500;
 
 }
-
-
-#flogo:hover{
-    
-    font-size:31px;
-    
-    color:transparent ;
-    -webkit-background-clip:text;
-    background-image:linear-gradient(#ee2a7b,#ff7db8);
-    transition:all .2s;
+h2{
+    text-align:center ;
 }
-#flogo{
-    
-    font-size:28px;
-    margin:auto;
-}
-.logo1{
-       
-    margin-left:14px;    
-    margin:auto;
-    
-    color:black;
-    float:right;
-    
-    
-    
-    
+.condition{
+    font-size:17.6px;
+    font-weight:500;
+    margin-left:3%;
+    color:#7e9bde;
 }
 
-.logo{
-    
-    margin:auto;
-    color:black;
-    
+#ipromise{
+    text-align:center ;
+    margin-left:50px;
+;    font-weight:bolder;
+    color:#082032;
+    font-size:19px;
+}
+#swear{
+    font-size:23px;
+    color:#dc143c;
+    margin-left:3%;
+}
+.last_sec{
+    margin-left:20%;
+    font-size:18px;
+    width:70%;
+    color:#f0a500;
+    font-weight:600;
+}
+
+#dsign{
+    display:flex;
+    justify-content:space-around;
+    margin-bottom:35px;
+}
+.sign{
+    font-size:19px;
+    font-weight:500;
     
 }
